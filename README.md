@@ -29,3 +29,56 @@ The assignment consists of four main questions:
 - Business decision-making based on model performance
 
 ## Repository Structure
+├── notebooks/ # Jupyter/Colab notebooks
+├── src/ # Source code (if refactored)
+├── data/ # Data sources and documentation
+├── results/ # Output and analysis results
+└── docs/ # Additional documentation
+
+
+## Getting Started
+
+### Prerequisites
+- Python 3.7+
+- Google Colab account (recommended)
+- Required packages listed in `requirements.txt`
+
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/[your-username]/MMA_869_Individual_Assignment.git
+cd MMA_869_Individual_Assignment
+```
+### Install dependencies:
+bash
+pip install -r requirements.txt
+
+Running the Assignment
+The main assignment notebook can be found in the notebooks/ directory. For best results, run it in Google Colab:
+
+Upload the notebook to Google Colab
+
+Run all cells in order
+
+Export results as PDF for submission
+
+Key Libraries Used
+pandas, numpy (data manipulation)
+
+scikit-learn (machine learning algorithms)
+
+matplotlib, seaborn (visualization)
+
+scipy (statistical analysis)
+
+Results
+The final model performances and insights are documented within the notebook. Key findings include:
+
+Customer personas identified through clustering
+
+Interesting association rules for grocery retail
+
+Optimized credit risk classification model
+
+Cost-benefit analysis for predictive maintenance
+
